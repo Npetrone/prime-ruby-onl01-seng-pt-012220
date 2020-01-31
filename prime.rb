@@ -8,7 +8,6 @@ def prime?(number)
   else 
     (2..number - 1).to_a.all? do |n|
       number % n != 0
-      return false
     end
   end
 end
