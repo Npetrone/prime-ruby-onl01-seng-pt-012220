@@ -5,5 +5,7 @@
 def prime?(number)
   if number < 2
     return false
-  else number. 
+  else 
+    (2..number - 1).to_a
+  end
 end
