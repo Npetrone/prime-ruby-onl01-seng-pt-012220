@@ -3,5 +3,6 @@
 #(1..10)/to_a 
 
 def prime?(number)
+  i=0
   
 end
